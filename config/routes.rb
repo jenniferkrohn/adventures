@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get 'http://0.0.0.0:3000/ilovetocode' => 'welcome#index'
 
-  get 'welcome/about'
+  get 'about' => 'welcome#about' 
 
   get 'welcome/contact' => 'waste'
 
